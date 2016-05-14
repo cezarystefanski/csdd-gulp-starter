@@ -1,7 +1,7 @@
 'use strict';
 
 let settings = () => {
-    const bench = '../workbench/';
+    const bench = 'workbench/';
     const src = bench + 'src/';
     const dest = bench + 'dest/';
     const prod = bench + 'dist/';
@@ -15,11 +15,13 @@ let settings = () => {
         tmp,
         index: src + 'index.html',
         srcJs: src + 'es/*.js',
+        srcJsMain: src + 'es/script.js',
         srcSass: src + 'sass/style.scss',
         srcData: src + 'data/*.json',
         srcImg: src + 'img/**/*.*',
         srcTemps: src + 'temps/**/*.html',
         tmpJs: tmp + 'js/',
+        tmpJsMain: tmp + 'js/main.js',
         tmpCss: tmp + 'css/',
         tmpData: tmp + 'data/',
         tmpImg: tmp + 'img/',
