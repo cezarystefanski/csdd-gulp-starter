@@ -1,0 +1,17 @@
+{
+  "name": "csdd-gulp-starter",
+  "description": "A try at a gulp starter tailored to my needs",
+  "main": "index.js",
+  "authors": [
+    "Cezary Stefanski <cezarystefanski@gmail.com> (http://csdd.com.pl)"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

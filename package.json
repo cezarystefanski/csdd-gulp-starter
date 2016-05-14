@@ -1,10 +1,10 @@
 {
   "name": "csdd-gulp-starter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A try at a gulp starter tailored to my needs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm install -g bower gulp browser-sync"
   },
   "repository": {
     "type": "git",
@@ -14,8 +14,12 @@
   "license": "MIT",
   "devDependencies": {
     "bower": "^1.7.9",
+    "browser-sync": "^2.12.8",
+    "browserify": "^13.0.1",
     "eslint": "^2.10.0",
     "gulp": "^3.9.1",
-    "require-dir": "^0.3.0"
+    "gulp-uglify": "^1.5.3",
+    "require-dir": "^0.3.0",
+    "vinyl-transform": "^1.0.0"
   }
 }
