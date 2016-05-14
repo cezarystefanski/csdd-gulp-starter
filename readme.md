@@ -1,10 +1,11 @@
 # csdd-gulp-starter
-An attempt to create a gulp starter tailored to my needs. Also to train some gulp.
+An attempt to create a gulp starter and boilerplate for html projects tailored to my needs. Also to train some gulp.
 
 **What's in?**
 
 + nothing much yet
 + much to come
++ todo browserify, debowerify, sass with useful mixins
 
 **Usage**
 

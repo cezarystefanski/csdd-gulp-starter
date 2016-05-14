@@ -11,5 +11,11 @@
     "url": "?.git"
   },
   "author": "Cezary Stefanski <cezarystefanski@gmail.com> (http://csdd.com.pl)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "eslint": "^2.10.0",
+    "gulp": "^3.9.1",
+    "require-dir": "^0.3.0"
+  }
 }
