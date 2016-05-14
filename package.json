@@ -1,0 +1,15 @@
+{
+  "name": "csdd-gulp-starter",
+  "version": "0.0.1",
+  "description": "A try at a gulp starter tailored to my needs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "?.git"
+  },
+  "author": "Cezary Stefanski <cezarystefanski@gmail.com> (http://csdd.com.pl)",
+  "license": "MIT"
+}
