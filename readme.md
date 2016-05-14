@@ -5,18 +5,40 @@ An attempt to create a gulp starter and boilerplate for html projects tailored t
 
 + nothing much yet
 + much to come
-+ todo browserify, debowerify, sass with useful mixins, babel, etc.
++ todo sass with useful mixins, babel, browser-sync, etc.
+
 
 **Usage**
 
 + `gulp` and `bower` needed
-``` npm
+``` javascript
 npm install
 ```
-
+Get any bower component you want, e.g:
+``` javascript
+bower install --save jquery
+```
+and require it in your js file, just like you would a module
+``` javascript
+let $ = require('jquery');
+```
+create some structure
+```
++gulp
++workbench
+ -src
+  -data
+  -es
+  -img
+  -sass
+  -temps
+```
+The rest will be done for you.
 
 **Changelog**
 
++ 0.0.3
+Added browserify and debowerify. 
 + 0.0.2
 Added gulp task structure and esLint code checking.
 + 0.0.1

@@ -1,6 +1,6 @@
 {
   "name": "csdd-gulp-starter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A try at a gulp starter tailored to my needs",
   "main": "index.js",
   "scripts": {
