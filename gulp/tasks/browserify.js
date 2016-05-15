@@ -8,8 +8,8 @@ const source = require('vinyl-source-stream');
 
 gulp.task('browserify', () => {
     return browserify({
-            entries: config.tempJsMain
-        })
+        entries: config.tempJsMain
+    })
         .transform(debowerify)
         .bundle()
         .pipe(source('main.js'))

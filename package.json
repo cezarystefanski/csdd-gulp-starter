@@ -1,14 +1,14 @@
 {
   "name": "csdd-gulp-starter",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A try at a gulp starter tailored to my needs",
   "main": "index.js",
   "scripts": {
-    "test": "npm install -g bower gulp browser-sync"
+    "getDeps": "npm install -g bower gulp browser-sync"
   },
   "repository": {
     "type": "git",
-    "url": "?.git"
+    "url": "https://github.com/cezarystefanski/csdd-gulp-starter"
   },
   "author": "Cezary Stefanski <cezarystefanski@gmail.com> (http://csdd.com.pl)",
   "license": "MIT",
@@ -22,6 +22,7 @@
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
     "gulp-uglify": "^1.5.3",
+    "mkdirp": "^0.5.1",
     "require-dir": "^0.3.0",
     "vinyl-source-stream": "^1.1.0",
     "vinyl-transform": "^1.0.0"
